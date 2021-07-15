@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v5.5.28',
-        'version' => '5.5.28.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'c21212fa690bd15f85d9fad4c2773d9c825079c2',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -323,12 +323,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v5.5.28',
-            'version' => '5.5.28.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'c21212fa690bd15f85d9fad4c2773d9c825079c2',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
@@ -541,6 +541,24 @@
             'reference' => 'cd1cf05c553ecfec36b170070573e540b67d3f1f',
             'dev_requirement' => true,
         ),
+        'prettus/l5-repository' => array(
+            'pretty_version' => '2.7.6',
+            'version' => '2.7.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../prettus/l5-repository',
+            'aliases' => array(),
+            'reference' => '2bd56801c78becf6a26b0d795312d879e55730cd',
+            'dev_requirement' => false,
+        ),
+        'prettus/laravel-validation' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../prettus/laravel-validation',
+            'aliases' => array(),
+            'reference' => 'cce3c273c9d44f77de031dc4dedd261ab936c497',
+            'dev_requirement' => false,
+        ),
         'psr/container' => array(
             'pretty_version' => '1.1.1',
             'version' => '1.1.1.0',
@@ -568,8 +586,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0',
             ),
         ),
         'psr/simple-cache' => array(
