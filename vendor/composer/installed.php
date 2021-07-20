@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c21212fa690bd15f85d9fad4c2773d9c825079c2',
+        'reference' => 'e41d7855949f6c68e09a1b411bc39fabde4cd901',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -328,7 +328,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c21212fa690bd15f85d9fad4c2773d9c825079c2',
+            'reference' => 'e41d7855949f6c68e09a1b411bc39fabde4cd901',
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
@@ -338,6 +338,15 @@
             'install_path' => __DIR__ . '/../laravel/tinker',
             'aliases' => array(),
             'reference' => 'ad571aacbac1539c30d480908f9d0c9614eaf1a7',
+            'dev_requirement' => false,
+        ),
+        'laravelcollective/html' => array(
+            'pretty_version' => 'v5.5.4',
+            'version' => '5.5.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravelcollective/html',
+            'aliases' => array(),
+            'reference' => '04c596a69975b901f2223eb6eb4adf55354121c2',
             'dev_requirement' => false,
         ),
         'league/flysystem' => array(
