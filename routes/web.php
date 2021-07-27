@@ -11,9 +11,21 @@
 |
 */
 
+//Route::get('/', ['uses' => 'Controller@homepage']);
+//Route::get('/cadastro', ['uses' => 'Controller@cadastrar']);
+
+
+//Route::get('/login', ['as'=> 'user.login', 'uses' => 'Controller@login']);
+//Route::post('/login', [Controller::class, 'login'])->name('user.login');
+
 Route::get('/', ['uses' => 'Controller@homepage']);
 Route::get('/cadastro', ['uses' => 'Controller@cadastrar']);
 
-
-Route::get('/login', ['as'=> 'user.login', 'uses' => 'Controller@login']);
-Route::post('/login', [Controller::class, 'login'])->name('user.login');
+/**
+ * Routhes to user auth
+ * =========================================================================
+ * 
+ */
+Route::get('/login', ['uses' => 'Controller@login']);
+Route::post('/login', ['as' => 'user.login', 'uses' => 'DashboardController@auth']);
+Route::post('/dashboard', ['as' => 'user.dashboard', 'uses' => 'DashboardController@index']);
